@@ -23,7 +23,7 @@ const ProductPage = () => {
     }
 
     useEffect(()=>{
-        setRelatedProducts(products.filter(item => item.subCategory === product.subCategory && item._id !== product._id))
+        setRelatedProducts(products.filter(item => item.subCategory === product.subCategory && item.category === product.category && item._id !== product._id))
     },[product])
   return (
     <>
@@ -37,7 +37,7 @@ const ProductPage = () => {
                     ))}
                 </Carousel>
             </div>
-            <div className="max-w-[710px] px-4 mx-auto 2xl:px-0">
+            <div className="w-full max-w-[710px] px-4 mx-auto 2xl:px-0">
                 <div className="lg:grid lg:gap-8 xl:gap-16">
                     <div className="mt-6 sm:mt-8 lg:mt-0">
                         <h1 className="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">
@@ -49,7 +49,7 @@ const ProductPage = () => {
                             </p>
                         </div>
                         {/* <div className="overflow-x-auto"> */}
-                            <Table className='max-w-full'>
+                            <Table className='max-w-full my-6'>
                                 <Table.Head className='text-gray-900 text-title'>
                                     <Table.HeadCell className='text-title capitalize '>Tallas</Table.HeadCell>
                                     <Table.HeadCell className='text-title capitalize '>Colores</Table.HeadCell>
@@ -81,7 +81,6 @@ const ProductPage = () => {
                         <hr className="my-6 md:my-8 border-gray-200" />
 
                         <p className="mb-6 text-gray-500 text-title text-justify">{product.description}</p>
-                        {/* <p className="mb-6 text-gray-500 text-title">{product.description.split(".")[0]}</p> */}
                     </div>
                 </div>
             </div> 
@@ -96,65 +95,6 @@ const ProductPage = () => {
                 </div>
             </div>
         </section>
-        {/* <section className='flex flex-col justify-center'>
-            <div className="h-96 xl:h-80 2xl:h-96 w-full max-w-[1050px]">
-                <Carousel slide={false}>
-                    <Gallery>
-                    {carouselImages.map((item, index) => (
-                        <article className='relative' key={index}>
-                            <img src={item.image} alt={item.title} />
-                            <div className='absolute bottom-5 right-1/4'>
-                                <Item
-                                    original={item.image}
-                                    thumbnail={item.image}
-                                    width="1024"
-                                    height="768"
-                                    object-fit="contain"
-                                >
-                                    {({ ref, open }) => (
-                                        <button ref={ref} onClick={open}>
-                                            <SlSizeFullscreen />
-                                        </button>
-                                    )}
-                                </Item>
-                            </div>
-                        </article>
-                    ))}
-                    </Gallery>
-                </Carousel>
-            </div>
-        </section>  */}
-        {/* <div>
-            <SimpleGallery
-                galleryID="my-test-gallery"
-                images={[
-                    {
-                    largeURL:
-                        'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg',
-                    thumbnailURL:
-                        'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg',
-                    width: 1875,
-                    height: 2500,
-                    },
-                    {
-                    largeURL:
-                        'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
-                    thumbnailURL:
-                        'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
-                    width: 1669,
-                    height: 2500,
-                    },
-                    {
-                    largeURL:
-                        'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
-                    thumbnailURL:
-                        'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-                    width: 2500,
-                    height: 1666,
-                    },
-                ]}
-            />
-        </div> */}
     </>
 
   )

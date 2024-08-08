@@ -1,8 +1,9 @@
 import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
-import axios from "axios";
-import { API_URL } from '../../config';
+// import axios from "axios";
+// import { API_URL } from '../../config';
 import useStore from '../store/store';
+import { categoriesList, productsList } from "../../data";
 
 export function cn(...inputs) {
   return twMerge(clsx(inputs));
@@ -15,10 +16,12 @@ const fetchProducts = async ()=> {
   
   if (products.length === 0) {
     try {
-      const res = await axios.get(`${API_URL}/api/product`)
-      const { data } = res.data
-      setProducts(data)
-      return data
+      // const res = await axios.get(`${API_URL}/api/product`)
+      // const { data } = res.data
+      // setProducts(data)
+      setProducts(productsList)
+
+      return productsList
     } catch (err) {
       console.error('Error fetching products:', err)
     }
@@ -32,11 +35,11 @@ const fetchCategories = async () => {
 
   if (categories.length === 0) {
     try {
-      const res = await axios.get(`${API_URL}/api/category`)
-      const { data } = res.data
-
-      setCategories(data)
-      return data
+      // const res = await axios.get(`${API_URL}/api/category`)
+      // const { data } = res.data
+      // setCategories(data)
+      setCategories(categoriesList)
+      return categoriesList
     } catch (err) {
       console.error('Error fetching categories:', err)
     }
@@ -61,9 +64,12 @@ export const findProduct = async (id)=>{
       const filteredProduct = products.filter(item => item._id === id)
       return filteredProduct[0]
     }
-    const res = await axios.get(`${API_URL}/api/product/${id}`)
-    const { data } = res.data
-    return data
+    // const res = await axios.get(`${API_URL}/api/product/${id}`)
+    // const { data } = res.data
+    // return data
+    const filteredProduct = productsList.filter(item => item._id === id)
+    return filteredProduct[0]
+
   } catch (err) {
     console.error('Error fetching categories:', err)
   }

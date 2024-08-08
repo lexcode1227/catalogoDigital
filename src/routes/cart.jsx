@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import useStore from '../store/store'
 import { Button, Label, Modal, TextInput } from "flowbite-react";
@@ -62,7 +62,7 @@ const CartShopping = () => {
                                             </h3>
                                             <p className="ml-4 font-bold">{`$${item.price}`}</p>
                                         </div>
-                                        <p className="mt-1 text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit, ducimus totam aliquam sapiente. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        <p className="mt-1 text-base text-gray-500">{item.description}</p>
                                     </div>
                                     <div className="flex flex-1 items-end justify-between text-title">
                                         <p className="text-gray-500">Qty 1</p>

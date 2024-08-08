@@ -29,10 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/discover",
-        element: <DiscoverPage/>,
-        // loader: async ()=> {
-        //   return fetchData()
-        // }
+        element: <DiscoverPage/>
       },
       {
         path: "/products/:id",
