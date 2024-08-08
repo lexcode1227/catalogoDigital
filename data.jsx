@@ -667,7 +667,7 @@ export const categoriesList = [
                 "_id": "66a12baa203755a1f091wt5k"
             },
             {
-                "subCategoryName": "Camisetas",
+                "subCategoryName": "Camisas",
                 "subCategoryCover": "https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg",
                 "_id": "66a5bbaa203755a1f09d0c0b"
             },
