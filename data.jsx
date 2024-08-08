@@ -35,24 +35,24 @@ export const productsList = [
         ],
         "description": "Camiseta deportiva juvenil Adidas manga corta talla 16, hace casi talla S."
     },
-    {
-        "_id": "66a6df396c3ec665430288e0",
-        "name": "Camiseta Reebok con estampado",
-        "category": "Hombres",
-        "subCategory": "Camisas",
-        "price": 15.00,
-        "images": [
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148928/Ropa-optimizada/Hombres/mlv7u0m4svgjvchzjirv.avif"
-        ],
-        "stockInfo": [
-            {
-                "size": "M",
-                "color": "Negra",
-                "stock": 1
-            }
-        ],
-        "description": "Camiseta Reebok con estampado manga corta talla M."
-    },
+    // {
+    //     "_id": "66a6df396c3ec665430288e0",
+    //     "name": "Camiseta Reebok con estampado",
+    //     "category": "Hombres",
+    //     "subCategory": "Camisas",
+    //     "price": 15.00,
+    //     "images": [
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148928/Ropa-optimizada/Hombres/mlv7u0m4svgjvchzjirv.avif"
+    //     ],
+    //     "stockInfo": [
+    //         {
+    //             "size": "M",
+    //             "color": "Negra",
+    //             "stock": 1
+    //         }
+    //     ],
+    //     "description": "Camiseta Reebok con estampado manga corta talla M."
+    // },
     {
         "_id": "66a6e7c66c3ec665430288e8",
         "name": "Camiseta Aeropostal juvenil con estampado",
@@ -71,44 +71,44 @@ export const productsList = [
         ],
         "description": "Camiseta Aeropostal juvenil con estampado manga corta talla XS."
     },
-    {
-        "_id": "66a6e86f6c3ec665430288ec",
-        "name": "Camiseta Reebok con estampado espalda",
-        "category": "Hombres",
-        "subCategory": "Camisas",
-        "price": 15.00,
-        "images": [
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148927/Ropa-optimizada/Hombres/kge7nn8ext9rvrssotnd.avif",
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148927/Ropa-optimizada/Hombres/pj3chxxufv2gcab2bp9q.avif",
-        ],
-        "stockInfo": [
-            {
-                "size": "M",
-                "color": "Sky blue",
-                "stock": 1
-            }
-        ],
-        "description": "Camiseta Reebok con estampado en la espalda, manga corta talla M."
-    },
-    {
-        "_id": "66a6e3a36c3ec665430288f0",
-        "name": "Camiseta Reebok gris con estampado frontal blanco",
-        "category": "Hombres",
-        "subCategory": "Camisas",
-        "price": 15.00,
-        "images": [
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148927/Ropa-optimizada/Hombres/e558vf9mhpebifpj5sos.avif",
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148926/Ropa-optimizada/Hombres/cdqnsowpwix0tivrmcew.avif"
-        ],
-        "stockInfo": [
-            {
-                "size": "S",
-                "color": "Gris",
-                "stock": 1
-            }
-        ],
-        "description": "Camiseta Reebok color gris con estampado blanco, manga corta talla S."
-    },
+    // {
+    //     "_id": "66a6e86f6c3ec665430288ec",
+    //     "name": "Camiseta Reebok con estampado espalda",
+    //     "category": "Hombres",
+    //     "subCategory": "Camisas",
+    //     "price": 15.00,
+    //     "images": [
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148927/Ropa-optimizada/Hombres/kge7nn8ext9rvrssotnd.avif",
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148927/Ropa-optimizada/Hombres/pj3chxxufv2gcab2bp9q.avif",
+    //     ],
+    //     "stockInfo": [
+    //         {
+    //             "size": "M",
+    //             "color": "Sky blue",
+    //             "stock": 1
+    //         }
+    //     ],
+    //     "description": "Camiseta Reebok con estampado en la espalda, manga corta talla M."
+    // },
+    // {
+    //     "_id": "66a6e3a36c3ec665430288f0",
+    //     "name": "Camiseta Reebok gris con estampado frontal blanco",
+    //     "category": "Hombres",
+    //     "subCategory": "Camisas",
+    //     "price": 15.00,
+    //     "images": [
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148927/Ropa-optimizada/Hombres/e558vf9mhpebifpj5sos.avif",
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148926/Ropa-optimizada/Hombres/cdqnsowpwix0tivrmcew.avif"
+    //     ],
+    //     "stockInfo": [
+    //         {
+    //             "size": "S",
+    //             "color": "Gris",
+    //             "stock": 1
+    //         }
+    //     ],
+    //     "description": "Camiseta Reebok color gris con estampado blanco, manga corta talla S."
+    // },
     {
         "_id": "999we9a36c3ec665430288f0",
         "name": "Camiseta Reebok con estampado blanco",
@@ -203,43 +203,43 @@ export const productsList = [
         ],
         "description": "Camiseta Aeropostale gris, manga corta talla XS."
     },
-    {
-        "_id": "66a6edb16c3ec66543028930",
-        "name": "Camiseta Reebok azul con estapado print",
-        "category": "Hombres",
-        "subCategory": "Camisas",
-        "price": 15.00,
-        "images": [
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148926/Ropa-optimizada/Hombres/tajvg6ljuec6mhoom8if.avif",
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148924/Ropa-optimizada/Hombres/kfyrd7y6pqygmmk9n2mf.avif"
-        ],
-        "stockInfo": [
-            {
-                "size": "S",
-                "color": "Azul",
-                "stock": 1
-            }
-        ],
-        "description": "Camiseta Reebok azul con estapado print, manga corta talla S."
-    },
-    {
-        "_id": "66a6edb16c3ec66543028931",
-        "name": "Camiseta Hurley negra con marca bordada",
-        "category": "Hombres",
-        "subCategory": "Camisas",
-        "price": 15.00,
-        "images": [
-            "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148923/Ropa-optimizada/Hombres/usl6as6gotrvah6eoxsv.avif"
-        ],
-        "stockInfo": [
-            {
-                "size": "M",
-                "color": "Negra",
-                "stock": 1
-            }
-        ],
-        "description": "Camiseta Hurley negra con marca bordado, manga corta talla M."
-    },
+    // {
+    //     "_id": "66a6edb16c3ec66543028930",
+    //     "name": "Camiseta Reebok azul con estapado print",
+    //     "category": "Hombres",
+    //     "subCategory": "Camisas",
+    //     "price": 15.00,
+    //     "images": [
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148926/Ropa-optimizada/Hombres/tajvg6ljuec6mhoom8if.avif",
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148924/Ropa-optimizada/Hombres/kfyrd7y6pqygmmk9n2mf.avif"
+    //     ],
+    //     "stockInfo": [
+    //         {
+    //             "size": "S",
+    //             "color": "Azul",
+    //             "stock": 1
+    //         }
+    //     ],
+    //     "description": "Camiseta Reebok azul con estapado print, manga corta talla S."
+    // },
+    // {
+    //     "_id": "66a6edb16c3ec66543028931",
+    //     "name": "Camiseta Hurley negra con marca bordada",
+    //     "category": "Hombres",
+    //     "subCategory": "Camisas",
+    //     "price": 15.00,
+    //     "images": [
+    //         "https://res.cloudinary.com/dwuv0l98b/image/upload/v1722148923/Ropa-optimizada/Hombres/usl6as6gotrvah6eoxsv.avif"
+    //     ],
+    //     "stockInfo": [
+    //         {
+    //             "size": "M",
+    //             "color": "Negra",
+    //             "stock": 1
+    //         }
+    //     ],
+    //     "description": "Camiseta Hurley negra con marca bordado, manga corta talla M."
+    // },
     
     // Mujeres
     {
